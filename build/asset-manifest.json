@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.68b5a96e.css",
-    "main.js": "/static/js/main.aeec09b9.js",
-    "index.html": "/index.html",
-    "main.68b5a96e.css.map": "/static/css/main.68b5a96e.css.map",
-    "main.aeec09b9.js.map": "/static/js/main.aeec09b9.js.map"
+    "main.css": "/Sopping-Website/static/css/main.68b5a96e.css",
+    "main.js": "/Sopping-Website/static/js/main.13047590.js",
+    "index.html": "/Sopping-Website/index.html",
+    "main.68b5a96e.css.map": "/Sopping-Website/static/css/main.68b5a96e.css.map",
+    "main.13047590.js.map": "/Sopping-Website/static/js/main.13047590.js.map"
   },
   "entrypoints": [
     "static/css/main.68b5a96e.css",
-    "static/js/main.aeec09b9.js"
+    "static/js/main.13047590.js"
   ]
 }

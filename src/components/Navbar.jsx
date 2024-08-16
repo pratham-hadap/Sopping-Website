@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className="flex max-w-6xl justify-between items-center h-20  mx-auto ">
 
       <NavLink to='/'>
-        <img src="../shopping-logo.png" className="h-14"/>
+        <img src="../shopping-logo.png" alt="pratham" className="h-14"/>
       </NavLink>
 
 

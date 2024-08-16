@@ -28,7 +28,7 @@ const Product = ({post}) => {
         <p className="w-40 text-sm text-gray-700">{post.description.split(" ").slice(0,10).join(" ") + "..."}</p>
       </div>
       <div>
-        <img src={post.image} className="h-[180px]"></img>
+        <img src={post.image} alt="pratham" className="h-[180px]"></img>
       </div>
       <div className="flex gap-10 items-center ">
         <div>
@@ -38,7 +38,7 @@ const Product = ({post}) => {
          hover:bg-black hover:text-white transition-all duration-300
          ease-in hover:scale-110">
           {
-            cart.some((p) => p.id == post.id) ? 
+            cart.some((p) => p.id === post.id) ? 
             (<button  onClick={removeItem}>Remove Item</button>)
             :(<button onClick={addToCart}>Add To Cart</button>)
           }
